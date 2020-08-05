@@ -12,6 +12,20 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/getCourseFeatures','HomeController@getCourseFeatures');
+Route::get('/getCoursePlan','HomeController@getCoursePlan');
+Route::get('/getPaymentGuide','HomeController@getPaymentGuide');
+
+
+
+
+
+
+
+
+
+
+
 
 Route::get('/', function () {
     return view('index');

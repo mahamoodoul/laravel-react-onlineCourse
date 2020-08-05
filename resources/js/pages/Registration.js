@@ -5,7 +5,7 @@ const Registration = () => {
         <Fragment>
             <Header></Header>
             <div>
-                <h1>Registration </h1>
+                <h1 style="marginLeft:10px" >Registration </h1>
             </div>
         </Fragment>
     );
