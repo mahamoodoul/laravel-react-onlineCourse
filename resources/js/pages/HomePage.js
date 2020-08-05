@@ -5,6 +5,8 @@ import Axios from "axios";
 import CourseFeature from '../components/CourseFeature';
 import CoursePlanHome from '../components/CoursePlanHome';
 import PaymentGuide from '../components/PaymentGuide';
+import MoreSeries from '../components/MoreSeries';
+import Footer from '../components/Footer';
 const HomePage = () => {
 
 
@@ -22,6 +24,8 @@ const HomePage = () => {
             <CourseFeature></CourseFeature>
             <CoursePlanHome></CoursePlanHome>
             <PaymentGuide></PaymentGuide>
+            <MoreSeries></MoreSeries>
+            <Footer></Footer>
         </Fragment>
     );
 

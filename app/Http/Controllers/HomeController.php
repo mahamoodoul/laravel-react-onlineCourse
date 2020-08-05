@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Model\CourseFeatureModel;
 use App\Model\CoursePlanModel;
 use App\Model\PaymentGuideModel;
+use App\Model\MoreSeriesModel;
 
 class HomeController extends Controller
 {
@@ -22,6 +23,11 @@ class HomeController extends Controller
     function getPaymentGuide(Request $request)
     {
         $result = PaymentGuideModel::all();
+        return  $result;
+    }
+    function getMoreSeries(Request $request)
+    {
+        $result = MoreSeriesModel::all();
         return  $result;
     }
 }
